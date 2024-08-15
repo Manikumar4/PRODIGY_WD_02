@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Stopwatch Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Stopwatch Web Application</h1>
+        <div class="stopwatch">
+            <div class="display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+            <div class="buttons">
+                <button id="startStopBtn">Start</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="lapBtn">Lap</button>
+                <button id="resetBtn">Reset</button>
+                <button id="clearLapsBtn">Clear Laps</button>
+            </div>
+            <div class="laps">
+                <h2>Lap Times</h2>
+                <ul id="lapList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
